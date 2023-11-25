@@ -19,7 +19,7 @@ class MyWidget(QMainWindow):
     def draw_circle(self):
         self.figure = 'circle'
         self.size = random.randint(10, 100)
-        self.color = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 0))  # 'yellow'
+        self.color = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 0))  
         self.flag = True
         self.update()
 
